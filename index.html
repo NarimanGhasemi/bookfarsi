@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="fa-ir">
+<head>
+    <meta charset="UTF-8">
+    <title>bargaval</title>
+    <meta name="keywords" content="bargaval.ir">
+    <meta name="author" content=" Seyed Mehdi Hashemi">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Theme Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--  bootstrap  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+<body>
+<!--header-->
+<header class="section-header mb-2 pb-2 mb-lg-5 pb-lg-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-box">
+                    <ul class="p-0 d-none d-md-flex align-items-center">
+                        <a href="https://bookfarsi.com/">
+                            <li class="mx-2 d-flex align-items-center">
+                                <img src="assets/images/overall/icon-header/home3.svg" alt="icon-header" loading="lazy">
+                                <p class="me-2">خانه</p>
+                            </li>
+                        </a>
+                        <a href="https://bookfarsi.com/cart/">
+                            <li class="mx-2 d-flex align-items-center">
+                                <img src="assets/images/overall/icon-header/bagtick2.svg" alt="icon-header"
+                                     loading="lazy">
+                                <p class="me-2">سبد خرید</p>
+                            </li>
+                        </a>
+                        <a href="https://wa.me/989387961259">
+                            <li class="mx-2 d-flex align-items-center">
+                                <img src="assets/images/overall/icon-header/call.svg" alt="icon-header" loading="lazy">
+                                <p class="me-2">تماس با ما</p>
+                            </li>
+                        </a>
+                        <a href="#video">
+                            <li class="mx-2 d-flex align-items-center">
+                                <img src="assets/images/overall/icon-header/book1.svg" alt="icon-header" loading="lazy">
+                                <p class="me-2">معرفی کتاب</p>
+                            </li>
+                        </a>
+                    </ul>
+                    <div class="icon-menu-mobile d-block d-md-none">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <svg width="31" height="31" viewBox="0 0 25 25" fill="none">
+                                <path d="M16.4064 9.37498H8.59391M16.4064 15.625H8.59391M9.37516 22.9166H15.6252C20.8335 22.9166 22.9168 20.8333 22.9168 15.625V9.37498C22.9168 4.16665 20.8335 2.08331 15.6252 2.08331H9.37516C4.16683 2.08331 2.0835 4.16665 2.0835 9.37498V15.625C2.0835 20.8333 4.16683 22.9166 9.37516 22.9166Z"
+                                      stroke="#484249" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <nav class="navbar fixed-top">
+                        <div class="container-fluid">
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                                 aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <button class="button-custom" data-bs-dismiss="offcanvas" aria-label="Close">
+                                        <svg width="33" height="33" viewBox="0 0 33 33" fill="none">
+                                            <path d="M12.6087 21.4225C12.3474 21.4225 12.0862 21.3262 11.8799 21.12C11.6881 20.9259 11.5806 20.6641 11.5806 20.3912C11.5806 20.1184 11.6881 19.8566 11.8799 19.6625L19.6624 11.88C20.0612 11.4812 20.7212 11.4812 21.1199 11.88C21.5187 12.2787 21.5187 12.9387 21.1199 13.3375L13.3374 21.12C13.1449 21.3262 12.8699 21.4225 12.6087 21.4225Z"
+                                                  fill="#484249"/>
+                                            <path d="M20.3912 21.4225C20.1299 21.4225 19.8687 21.3262 19.6624 21.12L11.8799 13.3375C11.6881 13.1434 11.5806 12.8816 11.5806 12.6087C11.5806 12.3359 11.6881 12.0741 11.8799 11.88C12.2787 11.4812 12.9387 11.4812 13.3374 11.88L21.1199 19.6625C21.5187 20.0612 21.5187 20.7212 21.1199 21.12C20.9137 21.3262 20.6524 21.4225 20.3912 21.4225Z"
+                                                  fill="#484249"/>
+                                            <path d="M20.625 31.2812H12.375C4.90875 31.2812 1.71875 28.0912 1.71875 20.625V12.375C1.71875 4.90875 4.90875 1.71875 12.375 1.71875H20.625C28.0912 1.71875 31.2812 4.90875 31.2812 12.375V20.625C31.2812 28.0912 28.0912 31.2812 20.625 31.2812ZM12.375 3.78125C6.03625 3.78125 3.78125 6.03625 3.78125 12.375V20.625C3.78125 26.9638 6.03625 29.2188 12.375 29.2188H20.625C26.9638 29.2188 29.2188 26.9638 29.2188 20.625V12.375C29.2188 6.03625 26.9638 3.78125 20.625 3.78125H12.375Z"
+                                                  fill="#484249"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <a href="https://bookfarsi.com/">
+                                            <li class="my-2 d-flex align-items-center">
+                                                <img src="assets/images/overall/icon-header/home3.svg" alt="icon-header"
+                                                     loading="lazy">
+                                                <p class="me-2">خانه</p>
+                                            </li>
+                                        </a>
+                                        <a href="https://bookfarsi.com/cart/">
+                                            <li class="my-2 d-flex align-items-center">
+                                                <img src="assets/images/overall/icon-header/bagtick2.svg"
+                                                     alt="icon-header" loading="lazy">
+                                                <p class="me-2">سبد خرید</p>
+                                            </li>
+                                        </a>
+                                        <a href="https://wa.me/989387961259">
+                                            <li class="my-2 d-flex align-items-center">
+                                                <img src="assets/images/overall/icon-header/call.svg" alt="icon-header"
+                                                     loading="lazy">
+                                                <p class="me-2">تماس با ما</p>
+                                            </li>
+                                        </a>
+                                        <a href="#video">
+                                            <li class="my-2 d-flex align-items-center">
+                                                <img src="assets/images/overall/icon-header/book1.svg" alt="icon-header"
+                                                     loading="lazy">
+                                                <p class="me-2">معرفی کتاب</p>
+                                            </li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--main-->
+<main>
+    <section class="section-top">
+        <div class="box-hero container-fluid">
+            <div class="container hero-section position-relative">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="border-dashed">
+                            <div class="box d-flex justify-content-center mb-4">
+                                <div class="box-img">
+                                    <img src="assets/images/overall/m018t001_jan_1622_book_mockup.png"
+                                         alt="کتاب های روش مهاجهرت به کانادا" loading="lazy" width="100%">
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-inherit align-items-md-center flex-column">
+                                <div class="img-right d-none d-lg-block">
+                                    <img src="assets/images/overall/box-img-title-right.svg" alt="عکس نوشته"
+                                         loading="lazy">
+                                </div>
+                                <div class="img-left d-none d-lg-block">
+                                    <img src="assets/images/overall/box-img-tiltle-left.svg" alt="عکس نوشته"
+                                         loading="lazy">
+                                </div>
+                                <div class="box-content p-2 p-lg-5 mt-5">
+                                    <div class="title mb-2">
+                                        <p class="color-red font-bold">کتاب راهنمای جامع</p>
+                                        <p class="color-red font-bold">مهاجرت، زندگی و کار در کشور کانادا</p>
+                                    </div>
+                                    <p class="font-bold">مراحل و قوانین دریافت ویزا در سال 2020</p>
+                                    <ul class="pe-3 content-levels">
+                                        <li>آموزش مراحل مهاجرت و زنذگی</li>
+                                        <li>560 صفحه (2جلد)</li>
+                                        <li>بیش از 50 مقاله هوشمند</li>
+                                        <li>به همراه لینک هوشمند منابع مورد نیاز</li>
+                                        <li>مورد تایید و کلای مهاجرت کشور کانادا</li>
+                                    </ul>
+                                </div>
+                                <div class="order-box py-4 my-3 my-lg-5">
+                                    <div class="box-top d-flex align-items-center justify-content-end px-2">
+                                        <p class="mx-2 color-red">25%</p>
+                                        <img src="assets/images/overall/discountshape.svg" loading="lazy"
+                                             alt="ایکون درصد">
+                                    </div>
+                                    <div class="box-center d-flex align-items-center justify-content-center my-3">
+                                        <p class="price color-green mx-2 font-bold">850.000</p>
+                                        <p class="font-bold">تومان</p>
+                                    </div>
+                                    <div class="box-order-button mx-1 mx-lg-4 ">
+                                        <a href="https://bookfarsi.com/?add-to-cart=237" class="py-3 d-flex align-items-center justify-content-center">
+                                            <img src="assets/images/overall/addcircle.svg" loading="lazy" alt="">
+                                            <p class="mx-2 color-white">سفارش</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container section-box py-2 mt-2 py-lg-5 mt-lg-4">
+                <div class="row">
+                    <div class="svg-box justify-content-center align-items-center mb-3 d-none d-lg-flex">
+                        <img src="assets/images/overall/Vector-top-box.svg" alt="" loading="lazy">
+                    </div>
+                    <div class="col-lg-6 col-12 my-3 my-lg-0">
+                        <div class="box">
+                            <div class="box-content d-flex justify-content-center flex-column align-items-center">
+                                <h4 class="color-red font-bold">مهاجرت قطعی به کانادا</h4>
+                                <h4 class="color-red font-bold">درکوتاه ترین زمان</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="box">
+                            <div class="box-content d-flex justify-content-center flex-column align-items-center">
+                                <h4 class="color-red font-bold">بیش از 20 روش مهاجرت</h4>
+                                <h4 class="color-red font-bold">تضمین شده و قطعی</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-time mb-4 mt-3 mt-lg-0">
+        <div class="container">
+            <div class="section-timer">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="border-dashed-box">
+                            <div class="content d-flex flex-column">
+                                <h3 class="font-bold mb-3 text-center line-height">زمان ، انرژی و پولتان را برای هولدینگ
+                                    ها و وکلای مهاجرتی</h3>
+                                <div class="box-title-img d-flex justify-content-around mt-3">
+                                    <img src="assets/images/overall/timer1.svg" alt="تایمر ایکون" loading="lazy">
+                                    <h2 class="color-red font-bold">هــــــدر ندهید!!!!</h2>
+                                    <img src="assets/images/overall/moneysend.svg" alt="ایکون" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-img">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="assets/images/background/serious-young-businessman-looking-wrist-watch-min.png"
+                             alt="تصویر مربوط به مهاجرت به کانادا" loading="lazy" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-video-introduction py-2 py-lg-5">
+        <div class="container box-introduction">
+            <div class="row my-3">
+                <div class="col-12">
+                    <h3 class="text-center font-bold">معرفی ویدیویی کتاب مهارجت به کانادا:</h3>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-lg-6 col-12 my-3 my-lg-0">
+                    <a href="#">
+                        <div class="box-video d-flex flex-column align-items-center justify-content-center">
+                            <img src="assets/images/overall/play.svg" alt="باکس پلیر فیلم" loading="lazy">
+                            <h4>مشاهده ی ویدیو</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <a href="#">
+                        <div class="box-video d-flex flex-column align-items-center justify-content-center">
+                            <img src="assets/images/overall/play.svg" alt="باکس پلیر فیلم" loading="lazy">
+                            <h4>مشاهده ی ویدیو</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-content py-2 py-lg-3">
+        <div class="box-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-center font-bold">بعضی از سر فصل های کتاب:</h3>
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">مهاجرت به کانادا از طریق کار</p>
+                            <span>کانادا با کمبود نیروی کار مواجه است.</span>
+                            <span>
+                            به‌همین‌دلیل بخش زیادی از نیروی کار مورد نیاز خود را از طریق مهاجران تامین می‌کند. یکی از ویژگی‌های مهاجرت به کانادا از طریق کار، امکان دریافت اقامت دائم این کشور است.
+                        </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">مهاجرت تحصیلی به کانادا</p>
+                            <span>
+                                تحصیل در کانادا نه تنها فرصتی برای دریافت اقامت دائم این کشور، بلکه راهی برای تحصیل در بهترین سطح آموزش است. ویزاهای مختلفی برای تحصیل در کانادا صادر می‌شود که با توجه به شرایط‌تان می‌توانید با استفاده از آن‌ها به کانادا مهاجرت کنید.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">مهاجرت از طریق سرمایه‌گذاری</p>
+                            <span>
+                            روش‌های مختلفی برای سرمایه‌گذاری در کانادا وجود دارد: کارآفرینی، استارتاپ، سرمایه‌گذاری استانی و خرید بیزینس. با توجه به میزان سرمایه و شرایطی که دارید، می‌توانید یکی از روش‌های سرمایه‌گذاری را انتخاب کرده و اقامت کانادا از طریق سرمایه‌گذاری را بگیرید.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">اکسپرس اینتری</p>
+                            <span>
+                            اکسپرس اینتری یک سیستم مهاجرتی مبتنی بر امتیازبندی است. در این سیستم با توجه به شرایط‌تان امتیازی به شما داده می‌شود. هر چه امتیاز بالاتری کسب کنید، شانس اخذ اقامت کانادا برای شما بالاتر است.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">پناهندگی</p>
+                            <span>
+                           یکی از راه ها برای افرادی که دلیل واقعی برای ترک کشور خود و عدم بازگشت دارند، پناهندگی در کانادا است. متقاضی می تواند به محض ورود به کانادا یا رسیدن به یکی از مرزهای این کشور از هر طریقی، درخواست پناهندگی خود را ارائه کند.
+                           </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">مهاجرت از طریق ازدواج</p>
+                            <span>
+                            مهاجرت به کانادا از طریق ازدواج، یکی از ساده‌ترین روش‌های مهاجرت است. اما نه به‌این سادگی‌ها هم که شما فکر می‌کنید! IRCC (اداره مهاجرت کانادا) صراحتاً اعلام کرده است افرادی که فکر می‌کنند ازدواج صوری و ساختگی، بلیط ورود آن‌ها به کانادا است، سخت در اشتباه هستند!
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">اقامت کانادا و تولد فرزند</p>
+                            <span>
+کانادا به اصل خاک پایبند است. و هر نوزادی که در این کشور به دنیا بیاید، تابعیت بی قید و شرط کانادا را می‌گیرد.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">فامیلی، خانوادگی و اسپانسرشیپ</p>
+                            <span>
+از متداول‌ترین سوال‌های متقاضیان برای مهاجرت به کانادا، مهاجرت از طریق فامیلی، اسپانسرشیپ و خانوادگی است. برای اخذ اقامت کانادا از این روش، باید یک نفر از اعضای خانواده یا خویشاوند درجه یک شما شهروند کانادا باشد.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">برنامه‌های مهاجرت استانی</p>
+                            <span>
+                            دولت کانادا این اختیار را به استان‌ها داده است تا با توجه به نیازهای خود در زمینه کار، سرمایه‌گذاری، تحصیل و … مهاجر جذب کنند. به‌همین‌دلیل برنامه های استانی کانادا (Provincial Nominee Programs) یا PNP به‌وجود آمد که مختص کار و زندگی در یک استان هستند.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">برنامه مهاجرت روستایی و استان های شمالی کانادا (RNIP)</p>
+                            <span>
+                                پایلوت مهاجرت به روستاها و مناطق کم‌جمعیت کانادا در سال 2019 به‌عنوان ابتکاری تازه برای تحریک رشد اقتصادی و رشد جمعیتی در این مناطق راه‌اندازی شد.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">ویزای توریستی کانادا</p>
+                            <span>
+                            ویزای توریستی کانادا گزینه‌ای بسیار مناسب برای سفر و گشت‌و‌گذار در این کشور است. البته این ویزا فقط با اهداف گردش و تفریح صادر نمی‌شود. شما می‌توانید برای سر زدن به خانواده یا دوستان، شرکت در جلسات کاری و … هم ویزای توریستی کانادا بگیرید.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">ویزای سینگل کانادا (Single entry visa)</p>
+                            <span>
+                            این ویزا یک‌بار ورود است و با آن می‌توانید تا 6 ماه در کانادا بمانید. در صورت خروج از کانادا و تمایل به ورود مجدد، باید برای صدور یک ویزای جدید درخواست دهید.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">ویزای مولتی کانادا (Multiple entry visa)</p>
+                            <span>
+                                این ویزا چندبار ورود است و با هر بار ورود به کانادا می‌توانید تا 6 ماه در این کشور بمانید. سقف ویزای مولتی هم 10 سال است اما با توجه به اعتبار 5 ساله پاسپورت ایران، به آن ویزای 5 ساله هم می‌گویند.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">سوپر ویزای کانادا (Super Visa)</p>
+                            <span>
+                            این ویزا به طور خاص برای والدین، پدربزرگ‌ها و مادربزرگِ‌هایی درنظر گرفته شده است که فرزند یا نوه آن‌ها اقامت دائم کانادا را داشته باشد. این افراد با سوپر ویزای کانادا می‌توانند در هر ورود تا 2 سال و نهایتاً تا سقف 10 سال در کانادا بمانند.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">شرایط مهاجرت به کانادا</p>
+                            <span>
+                                شرایط مهاجرت به کانادا، با توجه به روشی که برای مهاجرت انتخاب می‌کنید متفاوت است. هر کدام از روش‌های مهاجرتی؛ شرایط، قوانین و مدارک خاص خود را می‌خواهند.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container my-3 my-lg-5">
+        <div class="row">
+            <div class="col-12">
+                <a href="#">
+                    <img class="d-none d-lg-block" src="assets/images/background/img-Buyingbook-min.png" alt="تصویر بکراند" width="100%"
+                         loading="lazy">
+                    <img class="d-block d-lg-none" src="assets/images/background/img-Buyingbook-1-min.png" alt="تصویر بکراند" width="100%"
+                         loading="lazy">
+                </a>
+            </div>
+        </div>
+    </div>
+    <section class="section-content py-2 py-lg-3">
+        <div class="box-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-center font-bold">
+                            کدهای هوشمند کتاب</h3>
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">کتاب‌ها الکترونیک ۱</p>
+                            <ul class="list-style pe-4">
+                                <li>آزادسازی مدرک تحصیلی</li>
+                                <li>آزمون آیلتس برای مهاجرت</li>
+                                <li>
+                                    آزمون تافل برای مهاجرت
+                                </li>
+                                <li>اصطلاحات اپلای</li>
+                                <li>آمادگی برای مصاحبه اسکایپ</li>
+                                <li>امن‌ترین شهرهای کانادا</li>
+                                <li>انگشت نگاری ویزای کانادا</li>
+                                <li>بازار کار کانادا</li>
+                                <li>بورسیه تحصیلی کانادا</li>
+                                <li>مدارس بیزینس کانادا</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">کتاب‌ها الکترونیک ۲</p>
+                            <ul class="list-style pe-4">
+                                <li>پذیرش کاندیشنال</li>
+                                <li>پست داک کانادا</li>
+                                <li>
+                                    تاثیر مقاله بر اپلای
+                                </li>
+                                <li>تبدیل ویزای-تحصیلی به کاری در کانادا</li>
+                                <li>تحصیل با مدرک دیپلم در کانادا
+                                </li>
+                                <li>تحصیل در آمریکا یا کانادا
+                                </li>
+                                <li>تحصیل در کانادا بدون مدرک زبان
+                                </li>
+                                <li>بازار کار کانادا
+                                </li>
+                                <li>تحصیل رایگان در کانادا
+                                </li>
+                                <li>تغییر رشته در اپلای</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">کتاب‌ها الکترونیک ۳</p>
+                            <ul class="list-style pe-4">
+                                <li>توصیه نامه تحصیلی</li>
+                                <li>ثبت نام آنلاین ویزای کانادا
+                                </li>
+                                <li>چگونه اپلای کنیم.
+                                </li>
+                                <li>دانشگاه های مورد تایید کانادا
+                                </li>
+                                <li>دبیرستان در کانادا
+                                </li>
+                                <li>دوره زبان در کانادا
+                                </li>
+                                <li>رزومه و اپلای
+                                </li>
+                                <li>رشته‌های پرطرفدار در کانادا
+                                </li>
+                                <li>رفع ریجکتی ویزای کانادا
+                                </li>
+                                <li>کاورلتر</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">کتاب‌ها الکترونیک ۴</p>
+                            <ul class="list-style pe-4">
+                                <li>کالج‌های کانادا
+                                </li>
+                                <li>کارشناسی ارشد در کانادا
+                                </li>
+                                <li>کار‌آموزی در کانادا
+                                </li>
+                                <li>کار پس از تحصیل در کانادا
+                                </li>
+                                <li>اطلاعات مهم دانشگاه‌های کانادا
+                                </li>
+                                <li>فاند تحصیلی کانادا
+                                </li>
+                                <li>شرط معدل برای تحصیل در کانادا
+                                </li>
+                                <li>
+                                    سفارت کانادا
+                                </li>
+                                <li>سفارت کانادا در گرجستان
+                                </li>
+                                <li>سفارت کانادا در دبی
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">کتاب‌ها الکترونیک ۵</p>
+                            <ul class="list-style pe-4">
+                                <li>سفارت کانادا در ترکیه</li>
+                                <li>زندگی دانشجویی در کانادا
+                                </li>
+                                <li>ریجکت ویزای کانادا
+                                </li>
+                                <li>اپلای برای کانادا</li>
+                                <li>اپلای با معدل پایین
+                                </li>
+                                <li>ورک پرمیت کانادا
+                                </li>
+                                <li>معافیت تحصیلی برای اپلای
+                                </li>
+                                <li>مدرک زبان برای تحصیل در کانادا
+                                </li>
+                                <li>زمان صدور ویزای تحصیلی کانادا
+                                </li>
+                                <li>حاسبه GPA در کانادا</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">کتاب‌ها الکترونیک ۶</p>
+                            <ul class="list-style pe-4">
+                                <li>مجوز کار کانادا
+                                </li>
+                                <li>ثبت نام آنلاین ویزای کانادا
+                                </li>
+                                <li>لغو تعهد آموزش رایگان
+                                </li>
+                                <li>گپ تحصیلی
+                                </li>
+                                <li>کمک هزینه دانشجویی در کانادا</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container my-3 my-lg-5">
+        <div class="row">
+            <div class="col-12">
+                <a href="#">
+                    <img class="d-none d-lg-block" src="assets/images/background/img-Migration-min.png" alt="تصویر بکراند" width="100%" loading="lazy">
+                    <img class="d-block d-lg-none" src="assets/images/background/img-Migration-1-min.png" alt="تصویر بکراند" width="100%" loading="lazy">
+                </a>
+            </div>
+        </div>
+    </div>
+    <section class="section-content py-2 py-lg-3">
+        <div class="box-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-center font-bold">
+                            فهرست مطالب کتاب</h3>
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">فهرست مطالب ۱</p>
+                            <ul class="list-style pe-4">
+                                <li>
+                                    <span>چگونه مهاجرت کنیم</span>
+                                </li>
+                                <li>
+                                    <span>قوانین فرودگاهی کانادا</span>
+                                </li>
+                                <li>
+                                    <span>مهمترین اپلیکیشن ها در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>انتقال پول از کانادا به ایران</span>
+                                </li>
+                                <li>
+                                    <span>وام مسکن در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>مالیات در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>کارت اعتباری در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>قبل از ورود به کانادا</span>
+                                </li>
+                                <li>
+                                    <span>سیم کارت و تلفن در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>افتتاح حساب بانکی در کانادا</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">فهرست مطالب ۲</p>
+                            <ul class="list-style pe-4">
+                                <li>
+                                    <span>بیمه در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>خرید خودرو در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>اجاره خانه در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>خرید خانه در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>زندگی در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>ایرانیان کانادا</span>
+                                </li>
+                                <li>
+                                    <span>دین کانادا</span>
+                                </li>
+                                <li>
+                                    <span>هزینه زندگی در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>خرید از فروشگاه&zwnj; های ارزان در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>ویزای توریستی کانادا</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">فهرست مطالب ۳</p>
+                            <ul class="list-style pe-4">
+                                <li>
+                                    <span>انواع ویزای توریستی کانادا</span>
+                                </li>
+                                <li>
+                                    <span>ثبت نام آنلاین ویزای کانادا</span>
+                                </li>
+                                <li>
+                                    <span>لغو تعهد آموزش رایگان</span>
+                                </li>
+                                <li>
+                                    <span>گپ تحصیلی</span>
+                                </li>
+                                <li>
+                                    <span>بک &zwnj;گراند چک ویزای کانادا</span>
+                                </li>
+                                <li>
+                                    <span>ویزای تحصیلی کانادا</span>
+                                </li>
+                                <li>
+                                    <span>ویزای همراه کانادا</span>
+                                </li>
+                                <li>
+                                    <span>سوپر ویزای کانادا</span>
+                                </li>
+                                <li>
+                                    <span>ویزای بیزینس کانادا</span>
+                                </li>
+                                <li>
+                                    <span>ویزای تولد فرزند در کانادا</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">فهرست مطالب ۴</p>
+                            <ul class="list-style pe-4">
+                                <li>
+                                    <span>ویزای مولتی کانادا</span>
+                                </li>
+                                <li>
+                                    <span>ویزای نیروی متخصص فدرال کانادا</span>
+                                </li>
+                                <li>
+                                    <span>ویزای کارکنان ماهر فدرال کانادا</span>
+                                </li>
+                                <li>
+                                    <span>ویزای خود اشتغالی کانادا</span>
+                                </li>
+                                <li>
+                                    <span>اکسپرس اینتری کانادا</span>
+                                </li>
+                                <li>
+                                    <span>برنامه های مهاجرت استانی کانادا</span>
+                                </li>
+                                <li>
+                                    <span>ویزای اسپانسرشیپ کانادا</span>
+                                </li>
+                                <li>
+                                    <span>ویزای سرمایه گذاری کانادا</span>
+                                </li>
+                                <li>
+                                    <span>ویزای تجربه کانادایی</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">فهرست مطالب ۵</p>
+                            <ul class="list-style pe-4">
+                                <li>
+                                    <span>ویزای برنامه مددکاری اجتماعی کانادا</span>
+                                </li>
+                                <li>
+                                    <span>هزینه مهاجرت به کانادا</span>
+                                </li>
+                                <li>
+                                    <span>تحصیل در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>پذیرش تحصیلی کانادا</span>
+                                </li>
+                                <li>
+                                    <span>کار در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>بیزینس بخرم یا از ابتدا راه راندازی کنم</span>
+                                </li>
+                                <li>
+                                    <span>راه اندازی بیزنس در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>پناهندگی کانادا</span>
+                                </li>
+                                <li>
+                                    <span>دانشگاه&zwnj;های مورد تایید وزارت علوم در کانادا</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">فهرست مطالب ۶</p>
+                            <ul class="list-style pe-4">
+                                <li>
+                                    <span>مدرک زبان مورد نیاز برای تحصیل در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>توصیه&zwnj; نامه&zwnj; تحصیلی</span>
+                                </li>
+                                <li>
+                                    <span>بورسیه تحصیلی کانادا</span>
+                                </li>
+                                <li>
+                                    <span>انگیزه نامه</span>
+                                </li>
+                                <li>
+                                    <span>کاورلتر</span>
+                                </li>
+                                <li>
+                                    <span>چگونه اپلای کنیم</span>
+                                </li>
+                                <li>
+                                    <span>اپلای با معدل پایین</span>
+                                </li>
+                                <li>
+                                    <span>پذیرش کاندیشنال</span>
+                                </li>
+                                <li>
+                                    <span>تحصیل در کانادا بدون مدرک زبان</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">فهرست مطالب ۷</p>
+                            <ul class="list-style pe-4">
+                                <li>
+                                    <span>رزومه اپلای</span>
+                                </li>
+                                <li>
+                                    <span>آزمون تافل برای مهاجرت</span>
+                                </li>
+                                <li>
+                                    <span>آزمون آیلتس برای مهاجرت</span>
+                                </li>
+                                <li>
+                                    <span>آمادگی برای مصاحبه اسکایپ</span>
+                                </li>
+                                <li>
+                                    <span>گپ تحصیلی</span>
+                                </li>
+                                <li>
+                                    <span>بیزینس اسکول های کانادا</span>
+                                </li>
+                                <li>
+                                    <span>شرط معدل برای تحصیل در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>فاند تحصیلی کانادا</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">فهرست مطالب ۸</p>
+                            <ul class="list-style pe-4">
+                                <li>
+                                    <span>تبدیل ویزای تحصیلی به کاری در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>کار پس از تحصیل در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>کار&zwnj;آموزی در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>دوره زبان در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>تحصیل در آمریکا یا کانادا</span>
+                                </li>
+                                <li>
+                                    <span>تاثیر مقاله بر اپلای</span>
+                                </li>
+                                <li>
+                                    <span>اصطلاحات اپلای</span>
+                                </li>
+                                <li>
+                                    <span>رشته های پرطرفدار در کانادا</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">فهرست مطالب ۹</p>
+                            <ul class="list-style pe-4">
+                                <li>
+                                    <span>مدت زمان صدور ویزای تحصیلی کانادا</span>
+                                </li>
+                                <li>
+                                    <span>سفارت کانادا در ترکیه</span>
+                                </li>
+                                <li>
+                                    <span>ریجکت ویزای کانادا</span>
+                                </li>
+                                <li>
+                                    <span>رفع ریجکتی ویزای کانادا</span>
+                                </li>
+                                <li>
+                                    <span>سفارت کانادا در گرجستان</span>
+                                </li>
+                                <li>
+                                    <span>ثبت نام آنلاین ویزای کانادا</span>
+                                </li>
+                                <li>
+                                    <span>سفارت کانادا در دبی</span>
+                                </li>
+                                <li>
+                                    <span>انگشت نگاری ویزای کانادا</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">فهرست مطالب ۱۰</p>
+                            <ul class="list-style pe-4">
+                                <li>
+                                    <span>تحصیل با مدرک دیپلم در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>زندگی دانشجویی در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>کمک هزینه دانشجویی در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>امن &zwnj;ترین شهرهای کانادا</span>
+                                </li>
+                                <li>
+                                    <span>آزادسازی مدرک تحصیلی</span>
+                                </li>
+                                <li>
+                                    <span>معافیت تحصیلی برای اپلای</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">فهرست مطالب ۱۱</p>
+                            <ul class="list-style pe-4">
+                                <li>
+                                    <span>تغییر رشته در اپلای</span>
+                                </li>
+                                <li>
+                                    <span>لغو تعهد آموزش رایگان</span>
+                                </li>
+                                <li>
+                                    <span>اپلای کانادا</span>
+                                </li>
+                                <li>
+                                    <span>سفارت کانادا</span>
+                                </li>
+                                <li>
+                                    <span>پست داک کانادا</span>
+                                </li>
+                                <li>
+                                    <span>کارشناسی ارشد در کانادا</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-2">
+                        <div class="box">
+                            <p class="color-red">فهرست مطالب ۱۲</p>
+                            <ul class="list-style pe-4">
+                                <li>
+                                    <span>دبیرستان در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>تحصیل رایگان در کانادا</span>
+                                </li>
+                                <li>
+                                    <span>کالج های کانادا</span>
+                                </li>
+                                <li>
+                                    <span>استادی پلن</span>
+                                </li>
+                                <li>
+                                    <span>بازار کار کانادا</span>
+                                </li>
+                                <li>
+                                    <span>ورک پرمیت</span>
+                                </li>
+                                <li>
+                                    <span>مجوز lmia</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container my-3 my-lg-5">
+        <div class="row">
+            <div class="col-12">
+                <a href="#">
+                    <img class="d-none d-lg-block" src="assets/images/background/img-withoutcapital-min.png" alt="تصویر بکراند" width="100%" loading="lazy">
+                    <img class="d-block d-lg-none" src="assets/images/background/img-withoutcapital-1-min.png" alt="تصویر بکراند" width="100%" loading="lazy">
+                </a>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- script -->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

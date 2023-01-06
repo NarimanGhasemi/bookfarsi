@@ -1,0 +1,477 @@
+/**
+  Name author   : mehdi hashemi
+  mobile author : 0991 627 8403
+  gmail author  : seyedmehdi8403@gmail.com
+  website author: https://seyed-mehdii.github.io/personal-me/
+*/
+.list-style {
+    list-style: unset !important;
+}
+
+.line-height {
+    line-height: 33px;
+}
+
+.color-red {
+    color: #FF5858;
+}
+
+.color-green {
+    color: #0DD6A5;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+.border-dashed {
+    border: #FF5858 4px dashed;
+}
+
+.border-dashed-box {
+    border: #FF5858 2px dashed;
+}
+
+.list-style {
+    list-style: unset !important;
+}
+
+.line-height {
+    line-height: 33px;
+}
+
+.color-red {
+    color: #FF5858;
+}
+
+.color-green {
+    color: #0DD6A5;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+.border-dashed {
+    border: #FF5858 4px dashed;
+}
+
+.border-dashed-box {
+    border: #FF5858 2px dashed;
+}
+
+.section-header .header-box {
+    padding: 2rem 1.5rem;
+    background: #FFFFFF;
+    border-radius: 0px 0px 20px 20px;
+}
+.section-header .header-box ul a:hover p {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    color: #FF5858;
+}
+.section-header .header-box ul a li p {
+    color: #666565;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.section-header .button-custom {
+    background: transparent;
+    border: 1px solid transparent;
+}
+.section-header .offcanvas.offcanvas-end {
+    width: 100%;
+}
+
+.list-style {
+    list-style: unset !important;
+}
+
+.line-height {
+    line-height: 33px;
+}
+
+.color-red {
+    color: #FF5858;
+}
+
+.color-green {
+    color: #0DD6A5;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+.border-dashed {
+    border: #FF5858 4px dashed;
+}
+
+.border-dashed-box {
+    border: #FF5858 2px dashed;
+}
+
+@font-face {
+    font-family: yekan;
+    src: url("../../assets/fonts/font-yekan/YekanBakh-Regular.eot");
+    src: url("../../assets/fonts/font-yekan/YekanBakh-Regular.eot") format("embedded-opentype"),
+    url("../../assets/fonts/font-yekan/YekanBakh-Regular.woff2") format("woff2"),
+    url("../../assets/fonts/font-yekan/YekanBakh-Regular.woff") format("woff"),
+    url("../../assets/fonts/font-yekan/YekanBakh-Regular.ttf") format("truetype");
+    font-weight: 400 !important;
+    font-style: normal;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    font-family: yekan, sans-serif;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+a,
+ul,
+p {
+    text-decoration: none !important;
+    list-style: none !important;
+    margin-bottom: 0 !important;
+}
+
+html {
+    overflow-y: scroll;
+    direction: rtl;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: yekan, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: yekan, sans-serif !important;
+    overflow: hidden;
+    color: #666565 !important;
+    background: rgba(239, 239, 239, 0.95) !important;
+    font-size: 16px !important;
+}
+
+main section .box-hero .hero-section {
+    background: #FFFFFF;
+    padding: 0.5rem;
+    border-radius: 40px;
+}
+main section .box-hero .hero-section:before {
+    content: url("../../assets/images/overall/Vector-right.svg");
+    position: absolute;
+    z-index: 1;
+    top: 13%;
+    right: -55px;
+}
+main section .box-hero .hero-section:after {
+    content: url("../../assets/images/overall/Vector-left.svg");
+    position: absolute;
+    top: 57.5%;
+    left: -45px;
+}
+main section .box-hero .hero-section .border-dashed {
+    border-radius: 40px;
+}
+main section .box-hero .hero-section .border-dashed .box {
+    background-image: url("../../assets/images/overall/Backgroundofthebook.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+main section .box-hero .hero-section .border-dashed .box .box-img {
+    padding: 5rem 0;
+}
+main section .box-hero .hero-section .border-dashed .img-right {
+    position: absolute;
+    right: -9%;
+    bottom: 50%;
+    z-index: 2;
+}
+main section .box-hero .hero-section .border-dashed .img-left {
+    position: absolute;
+    left: -5%;
+    bottom: 50%;
+}
+main section .box-hero .hero-section .border-dashed .box-content {
+    line-height: 33px;
+    border-radius: 40px;
+    font-size: 18px;
+    box-shadow: 0px 196px 78px rgba(213, 210, 210, 0.01), 0px 110px 66px rgba(213, 210, 210, 0.05), 0px 49px 49px rgba(213, 210, 210, 0.09), 0px 12px 27px rgba(213, 210, 210, 0.1), 0px 0px 0px rgba(213, 210, 210, 0.1);
+}
+main section .box-hero .hero-section .border-dashed .box-content .content-levels {
+    font-weight: bold;
+    list-style: unset !important;
+}
+main section .box-hero .hero-section .border-dashed .order-box {
+    background: #FFFFFF;
+    box-shadow: 0px 129px 51px rgba(204, 204, 204, 0.01), 0px 72px 43px rgba(204, 204, 204, 0.05), 0px 32px 32px rgba(204, 204, 204, 0.09), 0px 8px 18px rgba(204, 204, 204, 0.1), 0px 0px 0px rgba(204, 204, 204, 0.1);
+    border-radius: 20px;
+}
+main section .box-hero .hero-section .border-dashed .order-box .box-center {
+    padding: 0 5rem;
+    font-size: 18px;
+}
+main section .box-hero .hero-section .border-dashed .order-box .box-order-button {
+    background: #FF5858;
+    border-radius: 20px;
+    font-size: 18px;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+main section .box-hero .hero-section .border-dashed .order-box .box-order-button:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+main section .section-box .box {
+    background: #FFFFFF;
+    box-shadow: 0 10px 16px 6px rgba(186, 186, 186, 0.01);
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+main section .section-box .box .box-content {
+    border: #FF5858 2px dashed;
+    border-radius: 25px;
+    padding: 2rem 1rem;
+}
+main section .section-timer {
+    background: #FFFFFF;
+    padding: 0.5rem;
+    border-radius: 25px;
+    z-index: 10;
+    position: relative;
+}
+main section .section-timer .border-dashed-box {
+    border-radius: 25px;
+}
+main section .section-timer .border-dashed-box .content {
+    padding: 3rem 0;
+}
+main section .box-img {
+    position: relative;
+    margin-top: -2rem;
+}
+main section .box-img img {
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+main section .box-introduction .box-video {
+    background: #FF5858;
+    padding: 3rem;
+    border-radius: 25px;
+}
+main section .box-introduction .box-video h4 {
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 1rem 0;
+}
+main section .box-content .box {
+    height: 100%;
+    max-height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 10px 16px 6px rgba(186, 186, 186, 0.01);
+    border-radius: 20px;
+    padding: 1rem;
+    line-height: 31px;
+    font-weight: bold;
+}
+main section .box-content .box .color-red {
+    font-size: 20px;
+    margin-bottom: 8px !important;
+    padding-right: 15px;
+    position: relative;
+}
+main section .box-content .box .color-red:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #FF5858;
+    position: absolute;
+    right: 0px;
+    top: 13px;
+}
+
+.list-style {
+    list-style: unset !important;
+}
+
+.line-height {
+    line-height: 33px;
+}
+
+.color-red {
+    color: #FF5858;
+}
+
+.color-green {
+    color: #0DD6A5;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+.border-dashed {
+    border: #FF5858 4px dashed;
+}
+
+.border-dashed-box {
+    border: #FF5858 2px dashed;
+}
+
+@media screen and (max-width: 768px) {
+    main section .box-hero .hero-section:after {
+        display: none;
+    }
+    main section .box-hero .hero-section:before {
+        display: none;
+    }
+}
+@media screen and (max-width: 586px) {
+    main section .box-hero .hero-section .border-dashed .box {
+        background-image: none;
+    }
+    main section .box-hero .hero-section .border-dashed .box .box-img {
+        padding: 5rem 0 0 0;
+    }
+}
+
+/*# sourceMappingURL=main.css.map */
